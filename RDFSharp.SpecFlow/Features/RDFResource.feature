@@ -1,4 +1,5 @@
-﻿Feature: Create RDFResource
+﻿Feature: RDFResource
+	Create RDFResource object
 
 Scenario: Create blank reasource
 	When create resource without parameters
