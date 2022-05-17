@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:lit="http://literature.org/#"
+	xml:base="http://literature.org/">
+	<rdf:Description rdf:about="#Hamlet">
+		<rdf:type rdf:resource="#drama"/>
+	</rdf:Description> 
+		<rdf:Description rdf:about="#Sonet96"> 
+		<rdf:type rdf:resource="#poem"/>
+	</rdf:Description> 
+	<rdf:Description rdf:about="#wrote"> 
+		<rdf:type rdf:resource="#rdf;Property"/> 
+		<rdf:domain rdf:resource="#writer"/> 
+		<rdf:range rdf:resource="#literary content"/> 
+	</rdf:Description> 
+		<rdfs:Class rdf:about="#poem"> 
+		<rdfs:subClassOf rdf:resource="#literary content"/> 
+	</rdfs:Class> 
+		<rdfs:Class rdf:about="#drama"> 
+		<rdfs:subClassOf rdf:resource="#literary content"/> 
+	</rdfs:Class> 
+	<lit:poet rdf:about="#Shakespeare"> 
+		<lit:wrote rdf:resource="#Sonet96"/> 
+		<lit:wrote rdf:resource="#Hamlet"/> 
+		<rdf:type rdf:resource="#playwright"/> 
+	</lit:poet> 
+</rdf:RDF>

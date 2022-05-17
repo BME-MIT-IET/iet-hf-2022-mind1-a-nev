@@ -22,16 +22,4 @@
     <ProjectReference Include="..\RDFSharp\RDFSharp.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="TestFiles\valid.rdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="TestFiles\withoutClosingTag.rdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="TestFiles\withoutRDFtag.rdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
 </Project>
