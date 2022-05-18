@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:bibo="http://purl.org/ontology/bibo/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ore="http://www.openarchives.org/ore/terms/"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/">
+   <rdf:Description rdf:about="http://mek.oszk.hu/data/00000/00001/#aggregation">
+   <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+   <ore:aggregates rdf:resource="http://mek.oszk.hu/00000/00001"/>
+   <ore:aggregates rdf:resource="http://mek.oszk.hu/00000/00001/00001.htm"/>
+   <dcterms:identifier>urn:nbn:hu-2000</dcterms:identifier>
+   <dcterms:title>Aetas repertórium, 1985-1995</dcterms:title>
+   <rdfs:label>Aetas repertórium, 1985-1995</rdfs:label>
+   <dcterms:type>directory</dcterms:type>
+   <rdf:type rdf:resource="http://purl.org/dc/terms/BibliographicResource"/>
+   <rdf:type rdf:resource="http://purl.org/ontology/bibo/Book"/>
+   <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://mek.oszk.hu/data/00000/00001/#aggregation">
+   	<dcterms:creator rdf:parseType="Resource">
+	   <rdfs:label>Kovács, Katalin</rdfs:label>
+           <foaf:Person rdf:parseType="Resource">
+              <foaf:name xml:lang="hu">Kovács Katalin</foaf:name>
+              <foaf:givenName>Katalin</foaf:givenName>
+              <foaf:familyName>Kovács</foaf:familyName>
+	</foaf:Person>
+   </dcterms:creator>
+</rdf:Description>
+<rdf:Description rdf:about="http://mek.oszk.hu/data/00000/00001/#aggregation">
+   <dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/hun"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://mek.oszk.hu/data/00000/00001/#aggregation">
+        <dcterms:source>Hungarian Electronic Library</dcterms:source>
+</rdf:Description>
+<rdf:Description rdf:about="http://mek.oszk.hu/data/00000/00001/#aggregation">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-07-31</dcterms:date>
+</rdf:Description>
+<rdf:Description rdf:about="http://mek.oszk.hu/data/00000/00001/#aggregation">
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-07-31</dcterms:issued>
+</rdf:Description>
+<rdf:Description rdf:about="http://mek.oszk.hu/data/00000/00001/#aggregation">
+   <dcterms:subject rdf:parseType="Resource">
+         <rdfs:label xml:lang="hu">történettudomány</rdfs:label>
+         <owl:sameAs rdf:resource="http://nektar.oszk.hu/data/auth/történettudomány"/>
+   </dcterms:subject>
+   <dcterms:subject rdf:parseType="Resource">
+         <rdfs:label xml:lang="en">Directories, bibliographies/Journal repertories</rdfs:label>
+         <rdfs:label xml:lang="hu">Katalógusok, bibliográfiák/Folyóirat repertóriumok</rdfs:label>
+         <owl:sameAs rdf:resource="http://id.loc.gov/authorities/subjects/sh85099897.rdf"/>
+   </dcterms:subject>
+   <dcterms:subject rdf:parseType="Resource">
+         <rdfs:label xml:lang="hu">folyóirat</rdfs:label>
+         <owl:sameAs rdf:resource="http://nektar.oszk.hu/data/auth/folyóirat"/>
+   </dcterms:subject>
+   <dcterms:subject rdf:parseType="Resource">
+         <rdfs:label xml:lang="en">History, local history/History (in general)</rdfs:label>
+         <rdfs:label xml:lang="hu">Történelem, helytörténet/Történelem általában</rdfs:label>
+         <owl:sameAs rdf:resource="http://id.loc.gov/authorities/subjects/sh85061212.rdf"/>
+   </dcterms:subject>
+   <dcterms:subject rdf:parseType="Resource">
+         <rdfs:label xml:lang="hu">sajtótörténet</rdfs:label>
+         <owl:sameAs rdf:resource="http://nektar.oszk.hu/data/auth/sajtótörténet"/>
+   </dcterms:subject>
+   <dcterms:subject rdf:parseType="Resource">
+         <rdfs:label xml:lang="en">Mass media/History of journalism and media</rdfs:label>
+         <rdfs:label xml:lang="hu">Média, tömegkommunikáció/Sajtó- és médiatörténet</rdfs:label>
+         <owl:sameAs rdf:resource="http://id.loc.gov/authorities/subjects/sh2008107499.rdf"/>
+         <owl:sameAs rdf:resource="http://id.loc.gov/authorities/subjects/sh2008106175.rdf"/>
+   </dcterms:subject>
+</rdf:Description>
+<rdf:Description rdf:about="http://mek.oszk.hu/data/00000/00001/#aggregation">
+        <dcterms:temporal>1985-1995</dcterms:temporal>
+</rdf:Description>
+   <rdf:Description rdf:about="http://mek.oszk.hu/data/00000/00001/">
+   <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/ResourceMap"/>
+   <ore:describes rdf:resource="http://mek.oszk.hu/data/00000/00001/#aggregation"/>
+   <dcterms:created>2001-07-31T16:30:30Z</dcterms:created>
+      <dcterms:creator rdf:parseType="Resource">
+            <foaf:page rdf:resource="http://mek.oszk.hu"/>
+            <foaf:name xml:lang="hu">Magyar Elektronikus Könyvtár</foaf:name>
+      </dcterms:creator>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://mek.oszk.hu/00000/00001/">
+        <dcterms:format rdf:resource="http://www.sparontologies.net/mediatype/text/html"/>
+        <dcterms:title>[MEK-00001] Aetas repertórium, 1985-1995</dcterms:title>
+        <rdf:type>humanStartPage</rdf:type>
+    </rdf:Description>
+   <rdf:Description rdf:about="http://mek.oszk.hu/00000/00001/00001.htm">
+      <dcterms:format rdf:resource="http://www.sparontologies.net/mediatype/text/html"/>
+      <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">308</dcterms:extent>
+   </rdf:Description>
+</rdf:RDF>
