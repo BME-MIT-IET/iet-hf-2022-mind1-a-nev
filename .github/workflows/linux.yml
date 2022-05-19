@@ -2,7 +2,9 @@ name: linux
 
 on:
   push:
-    branches: [ main ]
+    branches: 
+      - 'main'
+      - 'bug-fixed'
 
 jobs:
   build:
