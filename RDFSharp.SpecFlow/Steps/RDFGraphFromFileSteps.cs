@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RDFSharp.Model;
 using System;
+using System.IO;
 using TechTalk.SpecFlow;
 
 namespace RDFSharp.SpecFlow.Steps
@@ -17,7 +18,7 @@ namespace RDFSharp.SpecFlow.Steps
         [Given(@"an RDF graph in the file ""(.*)""")]
         public void GivenAnRDFGraphInTheFile(string fileName)
         {
-            _scenarioContext["Path"] = AppDomain.CurrentDomain.BaseDirectory + @"TestFiles\" + fileName;
+            _scenarioContext["Path"] = Path.Combine(@"TestFiles", fileName);
         }
         
         [When(@"create a graph from the file")]
