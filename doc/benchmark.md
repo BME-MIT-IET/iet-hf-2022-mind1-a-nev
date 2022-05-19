@@ -1,1 +1,3 @@
+Feladatunk volt valamilyen teljesítmény tesztelő keretrendszer hpzzáadása a projekthez. Itt a benchmarkdotnet jött szóba, mert ingyenes és könnyen használható. 3 RDF dataseten fut le 2-2 SPARQL, így összesen 6 teszt van. A megírt teszteket lefutási idő szerint lehet sorba rendezni.
 
+![image](https://user-images.githubusercontent.com/79051597/169366763-9b1dc375-93e7-40eb-b909-a941befa316c.png)
