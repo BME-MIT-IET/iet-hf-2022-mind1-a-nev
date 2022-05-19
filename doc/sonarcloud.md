@@ -19,3 +19,4 @@ build command-ra.
 
 Manuális kódvizsgálatot végeztem a projekt Model részére. Vizsgálataim során nem találtam semmi
 kiróvó hibát, bug-ot vagy code smell-t, így elfogadtam a SonarCloud által szolgáltatott eredményt
+
