@@ -22,7 +22,7 @@ namespace RDFSharp.Model
     /// <summary>
     /// RDFTriple represents a triple in the RDF model.
     /// </summary>
-    public sealed class RDFTriple : IEquatable<RDFTriple>
+    public class RDFTriple : IEquatable<RDFTriple>
     {
         #region Properties
         /// <summary>
