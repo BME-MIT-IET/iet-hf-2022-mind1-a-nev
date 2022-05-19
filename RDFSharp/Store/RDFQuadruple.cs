@@ -23,7 +23,7 @@ namespace RDFSharp.Store
     /// <summary>
     /// RDFQuadruple represents a quadruple in the RDF store.
     /// </summary>
-    public sealed class RDFQuadruple : IEquatable<RDFQuadruple>
+    public class RDFQuadruple : IEquatable<RDFQuadruple>
     {
         #region Properties
         /// <summary>
